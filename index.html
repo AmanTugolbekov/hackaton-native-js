@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Readex+Pro:wght@160..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="header">
+          <div class="navbar">
+            <div class="navImg">
+              <img class="navImgLogo" src="./images/Group (1).png" alt="" />
+            </div>
+            <div class="navBtn">
+              <button class="navBtnLogIn">Log-in</button>
+              <button class="navBtnSignUp">Sign-up</button>
+            </div>
+          </div>
+          <div class="navigationBar">
+            <div class="categories">
+              <button class="categoriesBtn" type="button">
+                All categories
+              </button>
+            </div>
+            <div class="search">
+              <input
+                class="searchBar"
+                type="search"
+                placeholder="🔍Search for..."
+              />
+              <button class="searchBarBtn">Search</button>
+            </div>
+            <div class="content">
+              <div class="divCreateModal">
+                <button class="createModal">Create advertisement</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close1">&times;</span>
+            <input type="text" placeholder="Name" name="" id="inpName" />
+            <input type="text" placeholder="Image" name="" id="inpImg" />
+            <input type="text" placeholder="Price" name="" id="inpPrice" />
+            <button class="btnModalCreate">Create product</button>
+          </div>
+        </div>
+        <div class="contentCards">
+          <ul class="cardsList"></ul>
+          <div class="modal1" id="myModal">
+            <div class="editModalProduct">
+              <span class="close">&times;</span>
+              <input id="inpEditName" class="modal-input" type="text" />
+              <input id="inpEditImg" class="modal-input" type="text" />
+              <input id="inpEditPrice" class="modal-input" type="text" />
+              <button id="saveEdit">Save product</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page">
+      <button class="prevPage"><--Previous page</button>
+      <button class="nextPage">Next page--></button>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

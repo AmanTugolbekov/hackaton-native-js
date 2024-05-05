@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "Nine bot pro1",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRUWZP-2E5FEo0n3uUzMvxzOyrgk3Gsi15aA&usqp=CAU",
+      "price": "14000$",
+      "id": 3
+    },
+    {
+      "name": "Nine bot mini5",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ0RbU23FZZm6PFji3M0dsRqqBomIu0NaATQ&usqp=CAU",
+      "price": "4000$",
+      "id": 4
+    },
+    {
+      "name": "Nine bot urban",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReQYENYTFdCyIjnfEN-9HLMFiuBMlgbL5NmA&usqp=CAU",
+      "price": "8001$",
+      "id": 5
+    },
+    {
+      "name": "Nine bot plus",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fV75irG2Apxj6gKLGpQMWZCC0x5Q0Tm-2Q&usqp=CAU",
+      "price": "12001$",
+      "id": 6
+    },
+    {
+      "name": "Nine bot s223",
+      "img": "data:image/jpeg;base64,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",
+      "price": "9000$",
+      "id": 7
+    },
+    {
+      "name": "Nine bot complete edition",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvH6crMghit7IDZR2eCk6Tb93GJV5doEGk4A&usqp=CAU",
+      "price": "68000$",
+      "id": 8
+    },
+    {
+      "name": "Nine bot kid edition",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrUIEZPrFwuJ3sBeheyalBcJKdR92okpnvcA&usqp=CAU",
+      "price": "1500$",
+      "id": 9
+    },
+    {
+      "name": "Nine bot neon",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWAs4YwUMI1MPqRVBG8SSDT_H0sdDcRf1T2g&usqp=CAU",
+      "price": "15000$",
+      "id": 10
+    },
+    {
+      "name": "Nine bot monster",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5gwy1HvYsvho6iqqawNe4bBsBXbJkeFkg0Q&usqp=CAU",
+      "price": "16000$",
+      "id": 11
+    },
+    {
+      "name": "Nine bot pro-urban",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ86MyDEYvJuDGHu6mn-mzt5IgZU_zbc5ouQ&usqp=CAU",
+      "price": "23000$",
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Readex+Pro:wght@160..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  overflow-y: visible;
+  font-family: Montserrat;
+}
+body {
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUTEhIVFRUXGBoXFxUXFx0XFxcYGBcdFxcYFxcYHSggGholGxoYIjEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKoBKAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIHA//EACYQAQEBAAECBAcBAQAAAAAAAAABEfACQTGRodEhUWFxseHxwYH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A7DvxMKoGKyvSC1lUApaGALiSgNQjOKCFAD4EMJ8gWQSlgNJaJQAIC4sZMBqM6qUCkCQCUkIUFis4oFolAIShfgBgoCQKaBi6AIlWpgKQ0AosJQEqlBKRLF0DChAFpoCWi1LAIWEAWIugJSqzgLCwhAVCLoBaGgn2IWJAVYmgAugFQpAWiLoFQAOn6riQAVIUFhhqAsZkUBUVAWAQDCoAnVFAFhEqgSIAJfFpAD6LEqgUIAVOqABFolAgsABAF0piglFvgyBFkSlBTUUC0xYQEiULAFTCAKQgEIqUEDAF0tFBMFjIFVLCQFEn0WAaQkUEiVeowASEAVPiAmNJgAsSKAmFQDSxaApU8CAoFBJEKoJiwMBUFoCLalAIQBahFAqLazQUwgBJ2VMNAUASgQEiyBgKIAKUwAxFwEStJgKidK4CwiWKAlhFBmrDEBSLiYCiSAFLOypYBFZ6msACEAsZrSYBDUvjzn9awEipiyAURcBMItZsBbQi4AJIAUVAUAEooCRUlWAkilAVnVMBIKlBUUwEWROc9FA1FwBAoCgAakXAEhCqCLCwAkAwE/RVAQpqggoBiamNALYmkBagkAVEsBVIaC4SJKAIQAglXpgCwS0GohalANLSANYmmgsiCAEKgKQ6YtAhhpoFQpoLKiEgLv0FASmi4CLAwESrU7gtgABq+JgBRKBTEv25/VAA0DVMKAmrWaCwJ6LQTVXEAtTSpftzAWQ0ADVlMBFKAhEqwAoSgaLIAYhVgIpQBFAZnxXCLASriRQSKsiAiasAMFQCCkASqgJauFIBCKQBKqAmrILATCCwEUigzUqloGLiFAwWACRr5/dOr2AkLGeejXT/AJ7AmLhUoECc9Gun3BlcJ4c+TM55A1UxPf8A2N0ERYnTzzBah+mr3BlWYT2/ILi4TwICB+mu3l+ATCs89S9+dgXDGurnknPUCiT3W9wSq1fHnyef6Boxm+7U8PP8gSIsQFTFs5/07AgdfPJQf//Z);
+}
+.navbar {
+  height: 90px;
+  width: auto;
+  background-color: rgb(28, 92, 142, 0.6);
+  display: flex;
+}
+.navImgLogo {
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-bottom: 5pxpx;
+  height: auto;
+  width: auto;
+}
+.navBtn {
+  padding-top: 2%;
+  padding-left: 60%;
+}
+.navBtnLogIn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 150%;
+  padding-right: 30px;
+}
+.navBtnSignUp {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 150%;
+}
+.navigationBar {
+  display: flex;
+  position: relative;
+  background-color: rgb(145, 165, 179);
+  height: 100px;
+  width: 100%;
+}
+.search {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+.categories {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+.searchBar {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 20px;
+  background: #ffffff;
+  outline: none;
+  width: 800px;
+  border: 1px solid #d9dde7;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+}
+.searchBarBtn {
+  padding: 12px;
+  background: #49863e;
+  border: none;
+  min-width: 164px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.searchBarBtn:hover {
+  background: #4065c2;
+}
+.search {
+  display: flex;
+}
+.categoriesBtn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: inherit;
+  padding: 10px 12px;
+  background: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  height: 45.6px;
+  width: 120px;
+}
+.contentQuote {
+  display: flex;
+}
+.spanCont1 {
+  font-size: 500%;
+  padding-left: 70px;
+  padding-top: 50px;
+}
+.spanCont2 {
+  font-size: 30%;
+  padding-left: 1px;
+}
+.createModal {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  height: 45px;
+  width: 200px;
+  background-color: rgb(253, 66, 66);
+  color: white;
+}
+.divCreateModal {
+  padding-left: 1300px;
+  padding-top: 29px;
+}
+.modal {
+  display: none;
+}
+#inpName {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#inpName:focus {
+  outline: none;
+  border-color: #007bff; /* Цвет границы при фокусе */
+}
+#inpImg {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#inpImg:focus {
+  outline: none;
+  border-color: #007bff;
+}
+#inpPrice {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#inpPrice:focus {
+  outline: none;
+  border-color: #007bff;
+}
+.btnModalCreate {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.cardsList {
+  display: flex;
+}
+
+.prevPage {
+  width: 150px;
+  height: 35px;
+  padding: 8px 16px;
+  background-color: #6593c4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.prevPage:hover {
+  background-color: #0056b3;
+}
+.nextPage {
+  margin-left: 1245px;
+  width: 150px;
+  height: 35px;
+  padding: 8px 16px;
+  background-color: #6593c4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.nextPage:hover {
+  background-color: #0056b3;
+}
+
+.createModal {
+  display: none;
+}
+
+.btnDelete {
+  border-radius: 4px;
+  height: 30px;
+}
+
+.btnEdit {
+  border-radius: 4px;
+  height: 30px;
+}
+.cardsList {
+  padding-top: 30px;
+  padding-left: 150px;
+}
+
+.liCard {
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+  background-color: #6593c4;
+}
+.imgCss {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.divInfo {
+  padding: 10px;
+}
+
+.spName {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.spPrice {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.btnCards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px 10px;
+}
+
+.btnCards button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #3f3f3f;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90px;
+}
+
+.btnCards button:hover {
+  background-color: #555;
+}
+.page {
+  padding-top: 100px;
+  display: flex;
+}
+
+.modal1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.editModalProduct {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-input {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.editModalProduct button {
+  margin-left: 145px;
+  background-color: #465e71;
+  color: white;
+  border-radius: 5px;
+  height: 25px;
+  width: 110px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.close1 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btnModalCreate {
+  background-color: #3f3f3f;
+  color: white;
+}
